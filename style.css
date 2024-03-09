@@ -1,54 +1,53 @@
-/* style.css */
+/* Updated style.css */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #0A192F; /* Kept the deep navy blue */
+    color: #E0E1DD; /* Updated to a soft, warm gray for better readability */
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #112240; /* Kept the slightly lighter navy for the header */
+    color: #68B0AB; /* Updated to a softer teal for a more sophisticated look */
     text-align: center;
-    padding: 1em 0;
+    padding: .25em 0;
 }
 
-    header nav ul {
-        list-style: none;
-        padding: 0;
-    }
-
-        header nav ul li a {
-            /* existing styles */
-        }
-        
-        header nav ul li a:hover {
-            color: #ccc;
-        }
-
 .hero {
-    background-color: #eee;
+    background-color: #283D3B; /* Updated to a deep, muted teal for a refined contrast */
     padding: 2em;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h2 {
     text-align: center;
+    font-weight: bold;
+    color: linen;
+    margin-bottom: 1em;
+}
+
+.hero p {
+    color: #EDF2F4; /* Updated to a very light gray for readability and contrast */
+    line-height: 1.6;
+    margin-bottom: 1em;
+    font-size: 22px;
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #112240; /* Matching the header and differing from the hero */
+    color: #E0E1DD; /* Updated to match the body text color for consistency */
     text-align: center;
     padding: 1em 0;
 }
 
-/* Responsive Design */
 @media screen and (max-width: 768px) {
-    body {
-        font-size: 16px;
-    }
-    header, footer {
-        padding: 0.5em 0;
-    }
     .hero {
         padding: 1em;
+        max-width: 90%;
     }
-    /* Additional responsive styles */
 }
