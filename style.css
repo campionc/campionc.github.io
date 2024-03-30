@@ -32,6 +32,36 @@ header {
     margin-bottom: 1em;
 }
 
+.domain-sale {
+    background-color: #4C516D; /* A contrasting color that stands out yet remains within the palette */
+    color: #FFFFFF; /* Bright color for readability */
+    text-align: center;
+    padding: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+    .domain-sale h2 {
+        color: #F0E68C; /* A soft yellow to draw attention to the announcement */
+        margin-bottom: 0.5em;
+    }
+
+    .domain-sale p {
+        font-size: 20px; /* Slightly larger for emphasis */
+        color: #EDF2F4; /* Maintaining readability */
+    }
+
+    .domain-sale a {
+        color: #98C1D9; /* A soft, friendly blue for links, ensuring they stand out */
+        text-decoration: none; /* Removes underline to keep the aesthetic clean */
+    }
+
+    .domain-sale a:hover,
+    .domain-sale a:focus {
+        text-decoration: underline; /* Adds underline on hover/focus for accessibility */
+        color: #F0E68C; /* Changes color to match the heading for visual consistency */
+    }
+
 .hero p {
     color: #EDF2F4; /* Updated to a very light gray for readability and contrast */
     line-height: 1.6;
